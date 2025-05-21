@@ -30,17 +30,21 @@ exports.getBookById = async (req, res) => {
 };
 
 exports.searchBooks = async (req, res) => {
-  const { q } = req.query;
+  const { title, author} = req.query;
 
-  if (!q) {
-    return res.status(400).json({ message: 'Missing search query `q`' });
+  const query = {};
+  if (title) query.title = new RegExp(title, 'i');
+  if (author) query.author = new RegExp(author, 'i');
+
+  if (!title && !author) {
+    return res.status(400).json({ message: 'Missing search parameters' });
   }
 
-  const books = await Book.find({
-    $or: [
-      { title: new RegExp(q, 'i') },
-      { author: new RegExp(q, 'i') },
-    ],
-  });
+  const books = await Book.find(query);
+
+  if (!books.length) {
+    return res.status(404).json({ message: 'No books found matching the search criteria' });
+  }
+  
   res.json(books);
 };
