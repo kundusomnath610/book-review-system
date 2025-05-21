@@ -31,6 +31,11 @@ exports.getBookById = async (req, res) => {
 
 exports.searchBooks = async (req, res) => {
   const { q } = req.query;
+
+  if (!q) {
+    return res.status(400).json({ message: 'Missing search query `q`' });
+  }
+
   const books = await Book.find({
     $or: [
       { title: new RegExp(q, 'i') },
