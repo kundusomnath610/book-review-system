@@ -10,7 +10,7 @@ exports.getBooks = async (req, res) => {
   const { page = 1, limit = 10, author, genre } = req.query;
   const query = {};
   if (author) query.author = new RegExp(author, 'i');
-  if (genre) query.genre = genre;
+  if (genre) query.genre = new RegExp(genre, 'i');
 
   const books = await Book.find(query)
     .skip((page - 1) * limit)
@@ -45,6 +45,6 @@ exports.searchBooks = async (req, res) => {
   if (!books.length) {
     return res.status(404).json({ message: 'No books found matching the search criteria' });
   }
-  
+
   res.json(books);
 };
