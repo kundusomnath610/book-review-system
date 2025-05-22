@@ -55,7 +55,16 @@ Clone command
 
 Install dependencies
 ------------------------
+    mkdir book-review-api
+            ⬇️
+    cd book-review-api
+            ⬇️
+    npm init -y (Create package.json)
+            ⬇️
     npm install
+
+
+
 
 Create a .env file in the root directory and add the following environment variable:
 -------------------
@@ -79,9 +88,9 @@ The API endpoint will be running at
 
 How to Run Locally
 -------------------
-    Ensure MongoDB is running (locally or accessible via the connection string).
-    Make sure your .env is properly configured with your MongoDB URI and JWT secret.
-    Start the server using the commands above.
+Ensure MongoDB is running (locally or accessible via the connection string).
+Make sure your .env is properly configured with your MongoDB URI and JWT secret.
+Start the server using the commands above.
 
 Use API tools like Postman or curl to interact with endpoints, such as
 ------------------------------------------------------------------------
