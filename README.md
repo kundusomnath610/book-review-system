@@ -65,12 +65,17 @@ Clone the repository for run in the Local Machine:
 
 4. Start the server
 --------------------
-(For dev development)
+For development
 ---------------------
     npm run dev
 
-(For Production)
+For Production
 -----------------
     npm start
+
+5. The API endpoint will be running at
+---------------------------------
+    http://localhost:5000/api
+   
 
 
