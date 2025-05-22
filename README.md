@@ -116,15 +116,15 @@ Start the server using the commands above.
 Use API tools like Postman or curl to interact with endpoints, such as
 ------------------------------------------------------------------------
 
-    POST /api/signup to create a new user
+POST /api/signup to create a new user
 
-    POST /api/login to log in and receive a JWT token
+POST /api/login to log in and receive a JWT token
 
-    POST /api/books to add a book (requires authentication)
+POST /api/books to add a book (requires authentication)
 
-    GET /api/books to list books
+GET /api/books to list books
 
-    POST /api/books/:id/reviews to add a review to a book (authenticated users only)
+POST /api/books/:id/reviews to add a review to a book (authenticated users only)
    
 
 
