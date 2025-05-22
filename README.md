@@ -1,18 +1,20 @@
 Book Review Project:-
-
+--------------------
 Project Overview:-
-This is a Book Review API built with Node.js, Express, and MongoDB. It allows users to:
+------------------
 
-Sign up and log in securely using JWT-based authentication.
+    This is a Book Review API built with Node.js, Express, and MongoDB. It allows users to:
 
-Add new books to the database.
+    Sign up and log in securely using JWT-based authentication.
 
-Retrieve lists of books with pagination and filtering options.
+    Add new books to the database.
 
-View details of a single book, including its reviews and average rating.
+    Retrieve lists of books with pagination and filtering options.
 
-Search books by title or author.
+    View details of a single book, including its reviews and average rating.
 
-Add, update, and delete reviews on books — with ownership and authentication enforced.
+    Search books by title or author.
 
-The project demonstrates common backend patterns such as RESTful routing, JWT authentication, password hashing, data validation, and MongoDB relationships (using Mongoose).
+    Add, update, and delete reviews on books — with ownership and authentication enforced.
+
+    The project demonstrates common backend patterns such as RESTful routing, JWT authentication, password hashing, data validation, and MongoDB relationships (using Mongoose).
