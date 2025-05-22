@@ -60,8 +60,18 @@ Install dependencies
     cd book-review-api
             ⬇️
     npm init -y (Create package.json)
-            ⬇️
     npm install
+
+    You need install the following packages: {
+    express: Web framework for Node.js
+    mongoose: MongoDB ODM to interact with the database
+    dotenv: For environment variables
+    bcryptjs: To hash passwords
+    jsonwebtoken: For JWT authentication
+
+    }
+    npm install express mongoose dotenv bcryptjs jsonwebtoken
+
 
 
 
