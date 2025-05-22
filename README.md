@@ -63,4 +63,12 @@ Clone the repository for run in the Local Machine:
     MONGODB_URI=your_mongodb_connection_string (Ex: mongodb://localhost:27017/yourDB)
     JWT_SECRET=your_jwt_secret_key
 
+4. Start the server
+--------------------
+(For dev development)
+    npm run dev
+
+(For Production)
+    npm start
+
 
