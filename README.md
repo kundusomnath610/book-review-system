@@ -1,7 +1,7 @@
 Book Review Project:-
--------------------->
+--------------------
 Project Overview:-
------------------->
+------------------
 
     This is a Book Review API built with Node.js, Express, and MongoDB. It allows users to:
 
