@@ -1,3 +1,9 @@
+/*
+
+Review schema for the Book, User, rating, And comment
+
+*/
+
 const mongoose = require('mongoose');
 
 const reviewSchema = new mongoose.Schema({
@@ -7,4 +13,5 @@ const reviewSchema = new mongoose.Schema({
   comment: String,
 }, { timestamps: true });
 
-module.exports = mongoose.model('Review', reviewSchema);
+// Export the review model using the schema
+module.exports = mongoose.model('Review', reviewSchema); 
