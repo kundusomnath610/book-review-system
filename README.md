@@ -126,7 +126,17 @@ Genarate The Token For Login :-
 
 ![Token Genatate for Login](https://github.com/user-attachments/assets/1e65d377-14d9-4f67-8462-0a5e46b807ed)
 
-If User Not Login Then it Occure Unauthorized User:
+If User Name And Password are wrong then:
+
+![invalid access](https://github.com/user-attachments/assets/015f04f4-d23e-4bd1-98e8-ba6f548184e4)
+
+Users Credentials Store in DataBase:
+
+![User Store in db](https://github.com/user-attachments/assets/7eb5ec14-806b-4b8c-9959-8dbde2680efa)
+
+
+
+If User Not Login And try to Add Book Then it Occure Unauthorized User:
 
 ![Unauthorize User](https://github.com/user-attachments/assets/cdbcc8fc-c59a-415e-ad39-9fa00a57efb5)
 
