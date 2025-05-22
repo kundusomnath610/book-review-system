@@ -45,7 +45,7 @@ Deploy the application on AWS or Azure.
 There are many more future progress and improvement scopes.
 
 
-Installation Steps:
+Installation Steps in Local Machine:
 --------------------
 Clone the repository for run in the Local Machine:
 ---------------------------------------------------
@@ -56,4 +56,11 @@ Clone the repository for run in the Local Machine:
 2. Install dependencies
 ------------------------
     npm install
+
+3. Create a .env file in the root directory and add the following environment variable:
+-------------------
+    PORT=5000
+    MONGODB_URI=your_mongodb_connection_string (Ex: mongodb://localhost:27017/yourDB)
+    JWT_SECRET=your_jwt_secret_key
+
 
