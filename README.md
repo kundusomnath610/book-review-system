@@ -151,6 +151,8 @@ All Book In MongoDB Database:-
 Get Book BY ID And Include Review and AVG_Rating:
 ![get book by id](https://github.com/user-attachments/assets/fb5faa52-7114-4145-b151-dff79c73b0e8)
 
+Get Another Book With Review and Rating
+
 ![Another book review](https://github.com/user-attachments/assets/7aeacd7f-6344-4e57-8d98-649a3f1724a0)
 
 
