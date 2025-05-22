@@ -209,6 +209,28 @@ If Book Not Found In the DataBase:
 
 
 
+Book Review API – Schema Design for MongoDB.
+
+Represents a registered user who can write reviews.
+
+| Field     | Type     | Description                  |
+| --------- | -------- | ---------------------------- |
+| id        | ObjectId | Primary key (auto-generated) |
+| name      | String   | Full name of the user        |
+| password  | String   | Hashed password              |
+| createdAt | Date     | Account creation time        |
+
+
+Represents a book that can be reviewed.
+
+| Field     | Type     | Description                  |
+| --------- | -------- | ---------------------------- |
+| id        | ObjectId | Primary key (auto-generated) |
+| bookId    | ObjectId | References `Book.id`         |
+| userId    | ObjectId | References `User.id`         |
+| rating    | Number   | Rating (e.g., 1–5)           |
+| comment   | String   | Review text                  |
+| createdAt | Date     | Review time                  |
 
 
 
