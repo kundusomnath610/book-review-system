@@ -32,3 +32,21 @@ Node.js installed (version 14 or later recommended)
 MongoDB instance (local or cloud-based like MongoDB Atlas)
 
 Git (optional, for cloning the repository)
+
+Future Progress:
+-----------------
+
+Create a frontend using React.js, HTML, and Tailwind CSS.
+It can be connected to SQL databases (e.g., PostgreSQL, MySQL) to support a large user base.
+Containerize the application with Docker to simplify collaboration with other developers.
+Implement code coverage testing and core functionality tests.
+Deploy the application on AWS or Azure.
+
+There are many more future progress and improvement scopes.
+
+
+Installation Steps:
+--------------------
+Clone the repository for run in the Local Machine:
+---------------------------------------------------
+    clone command:- git clone https://github.com/kundusomnath610/book-review-system.git
