@@ -76,6 +76,25 @@ Start the server
 The API endpoint will be running at
 ---------------------------------
     http://localhost:5000/api
+
+How to Run Locally
+-------------------
+    Ensure MongoDB is running (locally or accessible via the connection string).
+    Make sure your .env is properly configured with your MongoDB URI and JWT secret.
+    Start the server using the commands above.
+
+Use API tools like Postman or curl to interact with endpoints, such as
+------------------------------------------------------------------------
+
+    POST /api/signup to create a new user
+
+    POST /api/login to log in and receive a JWT token
+
+    POST /api/books to add a book (requires authentication)
+
+    GET /api/books to list books
+
+    POST /api/books/:id/reviews to add a review to a book (authenticated users only)
    
 
 
