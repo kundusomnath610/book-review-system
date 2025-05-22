@@ -70,9 +70,20 @@ Install dependencies
     jsonwebtoken: For JWT authentication
 
     }
+                ⬇️
     npm install express mongoose dotenv bcryptjs jsonwebtoken
 
+    For easier development, install nodemon to auto-restart server on code changes:
+                ⬇️
+    npm install --save-dev nodemon
 
+    Or You can add a script in package.json
+                ⬇️
+
+    "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+    }
 
 
 
