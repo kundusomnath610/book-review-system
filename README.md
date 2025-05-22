@@ -1,7 +1,7 @@
 Book Review Project:-
---------------------
+-------------------->
 Project Overview:-
-------------------
+------------------>
 
     This is a Book Review API built with Node.js, Express, and MongoDB. It allows users to:
 
@@ -18,3 +18,13 @@ Project Overview:-
     Add, update, and delete reviews on books — with ownership and authentication enforced.
 
     The project demonstrates common backend patterns such as RESTful routing, JWT authentication, password hashing, data validation, and MongoDB relationships (using Mongoose).
+
+
+Project Setup Instructions:-
+--------------------------->>
+Prerequisites
+Node.js installed (version 14 or later recommended)
+
+MongoDB instance (local or cloud-based like MongoDB Atlas)
+
+Git (optional, for cloning the repository)
