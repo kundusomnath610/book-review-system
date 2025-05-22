@@ -157,7 +157,7 @@ Get Another Book With Review and Rating
 
 
 
-Using Filter Author and Genre:
+Filter Book using Author and Genre:
 
 ![get book by Author](https://github.com/user-attachments/assets/6df8170a-5395-469f-8f4c-be2469e1a230)
 
