@@ -113,18 +113,95 @@ Ensure MongoDB is running (locally or accessible via the connection string).
 Make sure your .env is properly configured with your MongoDB URI and JWT secret.
 Start the server using the commands above.
 
-Use API tools like Postman or curl to interact with endpoints, such as
+Use API tools like Postman to interact with endpoints, such as
 ------------------------------------------------------------------------
 
-POST /api/signup to create a new user
+POST /api/signup to create a new user :-
+
+![User SignUp](https://github.com/user-attachments/assets/6b6258ca-73aa-4245-9994-3ce52254701d)
 
 POST /api/login to log in and receive a JWT token
 
+Genarate The Token For Login :-
+
+![Token Genatate for Login](https://github.com/user-attachments/assets/1e65d377-14d9-4f67-8462-0a5e46b807ed)
+
+If User Not Login Then it Occure Unauthorized User:
+
+![Unauthorize User](https://github.com/user-attachments/assets/cdbcc8fc-c59a-415e-ad39-9fa00a57efb5)
+
+
+
 POST /api/books to add a book (requires authentication)
+
+After Successfully Authentication User can Add(Post) the Book: 
+
+![Add Book](https://github.com/user-attachments/assets/1fe72658-3b9e-436b-a07f-725e4277e65d)
 
 GET /api/books to list books
 
+Get All Book :-
+
+![Get all Book](https://github.com/user-attachments/assets/44ab13f9-9c28-4c81-9eb8-c31902ca2584)
+
+All Book In MongoDB Database:-
+
+![Get all book in Mongodb](https://github.com/user-attachments/assets/da50c841-7d3f-4171-98f7-076c73e07d43)
+
+Get Book BY ID And Include Review and AVG_Rating:
+![get book by id](https://github.com/user-attachments/assets/fb5faa52-7114-4145-b151-dff79c73b0e8)
+
+![Another book review](https://github.com/user-attachments/assets/7aeacd7f-6344-4e57-8d98-649a3f1724a0)
+
+
+
+Using Filter Author and Genre:
+
+![get book by Author](https://github.com/user-attachments/assets/6df8170a-5395-469f-8f4c-be2469e1a230)
+
+
 POST /api/books/:id/reviews to add a review to a book (authenticated users only)
+
+Submit a review using ID (Authenticated users only):-
+![Review The Book](https://github.com/user-attachments/assets/a4dceb7d-d86c-4dbd-963e-b994f37beb0c)
+
+one review per user per book, If you review again for same book it occure error.(Alradey review)
+
+![Already Review by this id](https://github.com/user-attachments/assets/3aaf2f39-df55-4eb3-a1e8-6beec13e2e99)
+
+Book Review Store In Data Base:
+![Book Review Store in database](https://github.com/user-attachments/assets/1e415b9c-74b3-4128-9964-d9c79d61247f)
+
+
+Update the Book Review:
+
+![Update Book Review](https://github.com/user-attachments/assets/7ec8c5bc-182a-499c-8a5f-9a538da7c785)
+
+Delete The Book Review:
+
+![Delete review](https://github.com/user-attachments/assets/27bd75d6-4539-4ea1-940e-9164d165068c)
+
+GET /api/Search
+
+Search books by title or author (partial and case-insensitive)
+
+![SearchBook](https://github.com/user-attachments/assets/0ea38f3b-e4ac-46ce-9f92-0ed867db54c8)
+
+If Parameters Missing It Occure Message:
+
+![Missing Search param](https://github.com/user-attachments/assets/49c81d19-92e4-4927-989a-8c157299df3a)
+
+If Book Not Found In the DataBase:
+
+![if search not exist](https://github.com/user-attachments/assets/22e63024-1fae-42c4-b32a-a8890356b683)
+
+
+
+
+
+
+
+
    
 
 
