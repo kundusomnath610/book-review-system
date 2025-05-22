@@ -109,7 +109,7 @@ The API endpoint will be running at
 
 The API Documentation using Postman
 ------------------------------------
-    Link: https://documenter.getpostman.com/view/18655648/2sB2qai1x9
+    https://documenter.getpostman.com/view/18655648/2sB2qai1x9
 
 How to Run Locally
 -------------------
