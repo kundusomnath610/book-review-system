@@ -12,14 +12,16 @@ exports.getBooks = async (req, res) => {
   if (author) query.author = new RegExp(author, 'i');
   if (genre) query.genre = new RegExp(genre, 'i');
 
-  if (!author || !genre) {
-    return res.status(400).json({message: 'Parameter Not Found!!'});
-  }
 
   const books = await Book.find(query)
     .skip((page - 1) * limit)
     .limit(Number(limit));
   res.json(books);
+
+  // if (!author || !genre) {
+  //   return res.status(400).json({message: 'Parameter Not Found!!'});
+  // }
+  
 };
 
 exports.getBookById = async (req, res) => {
