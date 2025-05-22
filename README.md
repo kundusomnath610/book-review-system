@@ -49,6 +49,11 @@ Installation Steps:
 --------------------
 Clone the repository for run in the Local Machine:
 ---------------------------------------------------
-Clone command:- 
+1. Clone command
 -----------------
     git clone https://github.com/kundusomnath610/book-review-system.git
+
+2. Install dependencies
+------------------------
+    npm install
+
