@@ -49,31 +49,31 @@ Installation Steps in Local Machine:
 --------------------
 Clone the repository for run in the Local Machine:
 ---------------------------------------------------
-1. Clone command
+Clone command
 -----------------
     git clone https://github.com/kundusomnath610/book-review-system.git
 
-2. Install dependencies
+Install dependencies
 ------------------------
     npm install
 
-3. Create a .env file in the root directory and add the following environment variable:
+Create a .env file in the root directory and add the following environment variable:
 -------------------
     PORT=5000
     MONGODB_URI=your_mongodb_connection_string (Ex: mongodb://localhost:27017/yourDB)
     JWT_SECRET=your_jwt_secret_key
 
-4. Start the server
+Start the server
 --------------------
-For development
+1. For development
 ---------------------
     npm run dev
 
-For Production
+2. For Production
 -----------------
     npm start
 
-5. The API endpoint will be running at
+The API endpoint will be running at
 ---------------------------------
     http://localhost:5000/api
    
